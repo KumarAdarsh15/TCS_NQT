@@ -10,12 +10,9 @@ class Count_Rock {
         int r = sc.nextInt();
 
         int arr[] = new int[s];
+        System.out.println("Enter all " + s + " elements: ");
         for (int i = 0; i < arr.length; i++)
             arr[i] = sc.nextInt();
-        Arrays.sort(arr);
-        for (int i = 0; i < arr.length; i++)
-            System.out.print(arr[i] + " ");
-        System.out.println();
         for (int i = 0; i < r; i++) {
             System.out.print("Enter minimum range: ");
             int min = sc.nextInt();
