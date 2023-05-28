@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Sunday_Count {
     public static int firstSunday(String day) {
         String arr[] = { "mon", "tue,", "wed", "thu", "fri", "sat", "sun" };
-        // int res=6;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i].equals(day))
                 return 6 - i;
